@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Accordion styles */
+.accordion {
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.accordion-label {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0;
+}
+
+.accordion-content {
+    display: none;
+}
+.accordion-content img{
+    display:block;
+    width: auto;
+    height: 40%;
+}
+
+/* Tabbed section styles */
+.tab-container {
+    margin: 10px;
+}
+
+.tab-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.tab-menu-item {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    margin-right: 5px;
+}
+
+.tab-menu-item.active {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.tab-content {
+    display: none;
+}
+
+/* Add more specific styling as needed */
+
+/* Custom styles for your Cristiano Ronaldo fan page */
+.accordion-label {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.accordion-content {
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+
+.tab-menu-item {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.tab-menu-item:hover {
+    background-color: #217dbb;
+}
+
+.tab-content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
