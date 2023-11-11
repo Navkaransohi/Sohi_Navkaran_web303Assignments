@@ -1,0 +1,24 @@
+#photo-viewer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.photo-box {
+  margin: 10px;
+  border: 4px solid #3498db; /* Border color for thumbnails */
+  transition: border-color 0.3s ease-in-out;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.photo-box.active {
+  border-color: #e74c3c; /* Border color for active thumbnail */
+}
+
+.thumbnail {
+  width: 80px;
+  height: 45px;
+  object-fit: cover;
+}
