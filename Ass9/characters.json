@@ -1,0 +1,50 @@
+[{
+    "First Name":"Finn",
+    "Last Name":"Wolfhard",
+    "Age":"19",
+    "Gender":"Male",
+    "Date of Birth":"December 23, 2002"
+},
+{
+    "First Name":"Millie",
+    "Last Name":" Bobby",
+    "Age":"18",
+    "Gender":"Female",
+    "Date of Birth":"February 19,2004"
+},
+{
+    "First Name":"Gaten",
+    "Last Name":"Matarazzo",
+    "Age":"19",
+    "Gender":"Male",
+    "Date of Birth":"September 08,2003"
+},
+{
+    "First Name":"Caleb",
+    "Last Name":"McLaughlin",
+    "Age":"20",
+    "Gender":"Male",
+    "Date of Birth":"October 13,2001"
+},
+{
+    "First Name":"Noah",
+    "Last Name":"Schnapp",
+    "Age":"17",
+    "Gender":"Male",
+    "Date of Birth":"October 3,2001"
+},
+{
+    "First Name":"Sadie",
+    "Last Name":"Sink ",
+    "Age":"20",
+    "Gender":"Female",
+    "Date of Birth":"April 16,2002"
+},
+{
+    "First Name":"Joe",
+    "Last Name":"Keery",
+    "Age":"30",
+    "Gender":"Male",
+    "Date of Birth":"April 24,1992"
+}
+]
