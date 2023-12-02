@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Navkaran Sohi</h1>
+    <form id="registrationForm" action="/register" method="post">
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username">
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+        </div>
+        <div>
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword">
+        </div>
+        <div>
+          <label>
+            <input type="checkbox" id="terms" name="terms">
+            I accept the terms and conditions of service
+          </label>
+        </div>
+        <div>
+            <label for="country">Select your country:</label>
+            <select id="country" name="country">
+              <option value="" selected disabled>Select your country</option>
+            </select>
+        </div>
+        <div>
+          <button type="submit" id="submitButton" disabled>Submit</button>
+        </div>
+      </form>
+      
+      <div id="welcomeMessage" style="display: none;"></div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/countries.js"></script>
+</body>
+
+</html>

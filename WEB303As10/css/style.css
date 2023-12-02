@@ -1,0 +1,26 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  form {
+    margin:auto;
+  }
+  input[type="text"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #f3ecfa;
+    color: rgb(20, 12, 12);
+    border:rgb(207, 13, 207);
+  }
+  
+  button:disabled {
+    background-color:lightpink;
+    cursor: not-allowed;
+  }
+  
